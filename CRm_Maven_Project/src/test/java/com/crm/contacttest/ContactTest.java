@@ -7,11 +7,14 @@ public class ContactTest {
 	public void createContactTest() {
 		System.out.println("execute createContactTest");
 		String user=System.getProperty("user");
-		System.out.println("===============USERNAME==========="+user);
+		System.out.println("===============USERNAME===========");
 	}
 	@Test
 	public void editContactTest() {
 		System.out.println("execute editrContactTest");
+	}
+	public void deleteContactTest() {
+		System.out.println("execute deleteContactTest");
 	}
 
 }
